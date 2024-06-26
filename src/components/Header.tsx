@@ -10,25 +10,28 @@ const Header = () => {
       <nav>
         <ul className="flex space-x-4">
           <li>
-            <a className="hover:text-gray-400 font-bold" href="./premium.html">
+            <a className="hover:text-linkgreen font-bold" href="./premium.html">
               Premium
             </a>
           </li>
           <li>
             <a
-              className="hover:text-gray-400 font-bold"
+              className="hover:text-linkgreen font-bold"
               href="./Spotify-songs/songs.html"
             >
               Songs
             </a>
           </li>
           <li>
-            <a className="hover:text-gray-400 font-bold" href="./help.html">
+            <a className="hover:text-linkgreen font-bold" href="./help.html">
               Help
             </a>
           </li>
           <li>
-            <a className="hover:text-gray-400 font-bold" href="./download.html">
+            <a
+              className="hover:text-linkgreen font-bold"
+              href="./download.html"
+            >
               Download
             </a>
           </li>
