@@ -1,24 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root {
-  --fadednav: rgba(0, 0, 0, 0.6);
---black: #000;
---white: #fff;
-  --faded: #d9dadc;
-  --linkgreen: #1DB954;
-  --hvrgreen: #1ed760;
-  --homebgcolor:#2D46B9;
-  --secondary: #919496;
-  --premiumblue: #1d75de;
-}
-html{
-  scroll-behavior: smooth;
-}
-* {
--webkit-box-sizing: border-box;
-box-sizing: border-box;
-}
+:root, 
+html,
 body {
 margin: 0;
+background-color: #000;
+
 }

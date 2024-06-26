@@ -11,11 +11,11 @@ const HomeMain = () => {
             Wherever you are, whatever you feel, Spotify is your go-to for an
             unparalleled audio experience.
           </h3>
-          <a>
+          <Link to={"/main"}>
             <a className="inline-block my-8 text-[16px] leading-none rounded-full py-[19px] px-[56px] text-white bg-black transition duration-300 uppercase font-bold min-w-[160px] hover:bg-white hover:text-black">
               Play music
             </a>
-          </a>
+          </Link>
         </span>
       </div>
     </div>

@@ -41,6 +41,7 @@ const Header = () => {
               <UserIcon />
             </div>
             <span className="font-bold">Profile</span>
+            <i className="fa-solid fa-chevron-down"></i>
           </button>
         </ul>
       </nav>
